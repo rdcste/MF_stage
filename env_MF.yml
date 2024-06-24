@@ -1,0 +1,14 @@
+name: env_MF
+channels:
+  - conda-forge
+dependencies:
+  - gdal
+  - matplotlib
+  - imagemagick
+  - h5netcdf
+  - satpy
+  - pillow
+  - ipykernel
+  - cartopy
+  - ipympl
+prefix: /home/jupyter-rcoste/.conda/envs/env_MF
