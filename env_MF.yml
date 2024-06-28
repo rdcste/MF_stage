@@ -1,14 +1,13 @@
-name: env_MF
+name: base
 channels:
   - conda-forge
 dependencies:
-  - gdal
-  - matplotlib
-  - imagemagick
-  - h5netcdf
-  - satpy
-  - pillow
-  - ipykernel
-  - cartopy
-  - ipympl
-prefix: /home/jupyter-rcoste/.conda/envs/env_MF
+  - python=3.10
+  - mamba==1.4.1
+  - conda
+  - pip
+  - setuptools=65
+  - nb_conda_kernels
+  - widgetsnbextension
+  - zip
+prefix: /opt/tljh/user

@@ -7,12 +7,12 @@
 Manipulation et traitement des données brutes satellitaires de niveau 1
 Météo-France
 
-Pour toutes contacter meteo-spatiale@meteo.fr
+Pour toutes questions contacter meteo-spatiale@meteo.fr
 
 Tous les noms de produits, logos et marques sont la propriété de leurs propriétaires respectifs.
 Tous les noms d'entreprises, de produits et de services utilisés sur ce site Web sont uniquement à des fins d'identification.
 
-## Authors
+## Auteurs
 
 * [**Jean-Baptiste Hernandez**](mailto://jean-baptiste.hernandez@meteo.fr) - [Météo-France](https://meteofrance.com/)
 * [**Rudy Coste**](mailto://rudy.coste@meteo.fr) - [Météo-France](https://meteofrance.com/)
@@ -21,8 +21,8 @@ Tous les noms d'entreprises, de produits et de services utilisés sur ce site We
 
 ## Installation
 
-Le moyen le plus simple et le meilleur d’installer ces packages est via Git. Les utilisateurs peuvent cloner ce référentiel.
-Une fois que vous avez ouvert un terminal/une invite, vous devez accéder au répertoire dans lequel vous souhaitez placer le code. 
+Le moyen le plus simple et le meilleur pour installer ces packages est Git. Les utilisateurs peuvent cloner ce référentiel.
+Une fois que vous avez ouvert un terminal/une invite de commande, vous devez accéder au répertoire dans lequel vous souhaitez placer le code. 
 Une fois que vous êtes dans le bon répertoire, vous devez exécuter la commande suivante :
 
 `git clone https://github.com/rdcste/MF_casablanca`
@@ -47,19 +47,21 @@ Pour créer notre environnement Python, depuis le terminal (OSx/Linux), vous pou
 Cela créera un environnement Python appelé *env_MF**. L'environnement ne sera pas activé par défaut. Pour l'activer, exécutez :
 
 `conda activate env_MF`
+et
+`python -m ipykernel install --user –name=env_MF` (Utilisation de ce kernel dans le noteboook)
 
 Maintenant, vous êtes prêt!
 
 ### Utiliser Jupyter Notebook
 
-Ce module est basé sur une série de notebooks Jupyter. Ceux-ci prennent en charge un apprentissage interactif de haut niveau en nous permettant de combiner code, description textuelle et visualisations de données. Si vous n'avez jamais travaillé avec Jupyter Notebooks auparavant, veuillez consulter le module Introduction à Python et au projet Jupyter pour obtenir une brève introduction à leur utilisation et à leurs avantages.
-Pour exécuter Jupyter Notebook, ouvrez un terminal ou une invite Anaconda et assurez-vous d'avoir activé le bon environnement. Encore une fois, accédez au dossier du référentiel. Vous pouvez maintenant exécuter Jupyter en utilisant :
+Ce module est basé sur une série de notebooks Jupyter. Ceux-ci prennent en charge un apprentissage interactif de haut niveau en nous permettant de combiner code, description textuelle et visualisations de données.
+Pour exécuter Jupyter Notebook, ouvrez un terminal ou une invite de commande et assurez-vous d'avoir activé le bon environnement. Encore une fois, accédez au dossier du référentiel. Vous pouvez maintenant exécuter Jupyter en utilisant :
 jupyter lab ou jupyter-lab, selon votre système d'exploitation.
-Cela devrait ouvrir Jupyter Notebooks dans une fenêtre de navigateur. .
+Cela devrait ouvrir Jupyter Notebooks dans une fenêtre de navigateur.
 
-Now you can run the notebooks! We recommend you start with the [Index](./Index.ipynb) module.
-
-
+Remarque:
+Un répertoire MF_DATA contenant les fichiers sources est présent par défaut sur le JupyterHub mis à disposition
+A défaut télécharger les données sur eumetsat.int
 
 <hr>
 <hr>
