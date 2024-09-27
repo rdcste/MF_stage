@@ -25,7 +25,7 @@ Le moyen le plus simple et le meilleur pour installer ces packages est Git. Les 
 Une fois que vous avez ouvert un terminal/une invite de commande, vous devez accéder au répertoire dans lequel vous souhaitez placer le code. 
 Une fois que vous êtes dans le bon répertoire, vous devez exécuter la commande suivante :
 
-`git clone https://github.com/rdcste/MF_casablanca`
+`git clone https://github.com/rdcste/MF_stage`
 
 Cela fera une copie locale de tous les fichiers pertinents.
 
